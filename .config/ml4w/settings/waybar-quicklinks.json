@@ -1,0 +1,55 @@
+{
+    "custom/quicklink1": {
+        "format": "",
+        "on-click": "chromium",
+        "tooltip-format": "Open Chromium"
+    }, 
+    "custom/quicklink2": {
+        "format": "", /*"",*/
+        "on-click": "~/.config/ml4w/settings/browser.sh",
+        "tooltip-format": "Open Google Chrome"
+    },
+    "custom/quicklink3": {
+        "format": "",
+        "on-click": "~/.config/ml4w/settings/filemanager.sh",
+        "tooltip-format": "Open filemanager"
+    }, 
+    "custom/quicklink4": {
+        "format": "",
+        "on-click": "betterbird",
+        "tooltip-format": "Open Betterbird"
+    }, 
+    "custom/quicklink5": {
+        "format": "",
+        "on-click": "~/.config/ml4w/settings/calculator.sh",
+        "tooltip-format": "Open calculator"
+    }, 
+    "custom/quicklink6": {
+        "format": "",
+        "on-click": "~/.config/ml4w/settings/emojipicker.sh",
+        "tooltip-format": "Open emoji picker"
+    }, 
+    "custom/winbox": {
+        "format": " ",
+        "on-click": "WinBox",
+        "tooltip-format": "Open WinBox"
+    },
+    "custom/perplexity": {
+    "format": " ",
+    "on-click": "/home/guru101/apps/perplexity.appimage",
+    "tooltip-format": "Perplexity AI"
+    },
+    "custom/quicklinkempty": {
+    }, 
+    "group/quicklinks": {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/winbox",
+            "custom/perplexity",
+            "custom/quicklink2",
+            "custom/quicklink3",
+            // "custom/quicklink6",
+            "custom/quicklinkempty"
+        ]
+    }
+}

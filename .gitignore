@@ -1,0 +1,30 @@
+# Секрети та приватні дані
+**/*PrivateKey*
+**/*password*
+**/*token*
+**/*auth*
+.netrc
+.ssh/
+
+# Кеші та тимчасові файли
+.config/ml4w/cache/
+**/*.log
+**/*.bak
+**/*.save
+**/*.tmp
+
+# Бінарні дані та важкі зображення (за бажанням)
+# Якщо хочеш тримати шпалери в гіті — видали ці рядки
+#**/*.png
+**/*.jpg
+**/*.jpeg
+#**/*.svg
+#**/*.ico
+
+# Браузери та важкі IDE
+.config/google-chrome/
+.config/discord/
+.config/JetBrains/
+.config/Code/
+.config/Code - OSS/
+.config/Cursor/
